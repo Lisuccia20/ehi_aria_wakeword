@@ -1,0 +1,12 @@
+{
+  "wake_word": "ehi aria",
+  "version": 2,
+  "micro": {
+    "model": "stream_state_internal_quant.tflite",
+    "probability_cutoff": 0.5,
+    "sliding_window_size": 10
+  },
+  "trained_languages": [
+    "it"
+  ]
+}
