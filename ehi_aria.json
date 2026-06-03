@@ -1,12 +1,11 @@
 {
-  "wake_word": "ehi aria",
-  "version": 2,
+  "type": "micro",
+  "wake_word": "Hey Aria",
+  "author": "Lisa Manoni",
+  "model": "./stream_state_internal_quant.tflite",
+  "version": 1,
   "micro": {
-    "model": "./stream_state_internal_quant.tflite",
     "probability_cutoff": 0.5,
-    "sliding_window_size": 10
-  },
-  "trained_languages": [
-    "it"
-  ]
+    "sliding_window_average_size": 10
+  }
 }
