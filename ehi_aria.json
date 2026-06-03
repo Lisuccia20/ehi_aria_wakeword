@@ -2,7 +2,7 @@
   "type": "micro",
   "wake_word": "Alexa",
   "author": "Lisa Manoni",
-  "website": "",
+  "website": "https://lizonline.net",
   "model": "stream_state_internal_quant.tflite",
   "trained_languages": ["it"],
   "version": 2,
