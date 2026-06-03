@@ -2,7 +2,7 @@
   "wake_word": "ehi aria",
   "version": 2,
   "micro": {
-    "model": "https://github.com/Lisuccia20/ehi_aria_wakeword/raw/refs/heads/main/stream_state_internal_quant.tflite",
+    "model": "./stream_state_internal_quant.tflite",
     "probability_cutoff": 0.5,
     "sliding_window_size": 10
   },
